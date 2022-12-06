@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <style>
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover,
+        a:active {
+            background-color: red;
+            color: yellow;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        a {
+            transition: all 250ms ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">
+            <h4>Home</h4>
+        </a>
+        <a href="/contact">
+            <h4>Contact</h4>
+        </a>
+        <a href="/projects">
+            <h4>Projects</h4>
+        </a>
+    </div>
+    <div class="title">
+        <h1>About Me</h1>
+    </div>
+    <div class="aboutme">
+        <div class="left">
+            <img class="rm" src="https://i.kym-cdn.com/entries/icons/original/000/017/931/ronald-mcdonald-profile.jpg"
+                alt="ronald" />
+            <h4><span class="italic">"Ronald"</span> aka Ronald McDonald</h4>
+        </div>
+        <div class="right">
+            <p class="para">Hey there! If you don't know me, you should! I am the happiest 
+                <a href="https://www.mcdonalds.com/us/en-us/full-menu/burgers.html" class="italic">master chef</a> of
+                all the happiest happy meals any happy person could 
+                <a href="https://www.mcdonalds.com/us/en-us/mcdonalds-careers.html" class="italic">happily</a> ever ask
+                for!</p>
+        </div>
+    </div>
+</body>
+</html>

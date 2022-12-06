@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Form Data</title>
+    <link rel="stylesheet" href="~/css/style.css">
+<style>
+    button {
+            transition: all 250ms ease-in-out;
+        }
+    button:hover {
+            color: yellow;
+            background-color: #36454F;
+            text-shadow: 2px 2px 5px black;
+        }
+</style>
+</head>
+<body class="body">
+    <div class="results">
+        <div>
+            <h1 class="underline">Submitted Form Data</h1>
+            <p>First Name: @ViewBag.fname</p>
+            <p>Email: @ViewBag.email</p>
+            <p>Message: @ViewBag.message</p>
+            <a href="/"><button class="button">Home</button></a>
+        </div>
+    </div>
+</body>
+</html>

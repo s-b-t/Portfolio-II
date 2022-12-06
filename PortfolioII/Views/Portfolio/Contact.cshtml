@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <style>
+        a:link,
+        a:visited {
+            background-color: mediumseagreen;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover,
+        a:active {
+            background-color: green;
+            color: yellow;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        button:hover {
+            color: yellow;
+            background-color: #36454F;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        a, button {
+            transition: all 250ms ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">
+            <h4>Home</h4>
+        </a>
+        <a href="/contact">
+            <h4>Contact</h4>
+        </a>
+        <a href="/projects">
+            <h4>Projects</h4>
+        </a>
+    </div>
+    <div class="title">
+        <h1>Contact Me</h1>
+    </div>
+    <div class="form">
+        <form action="process" method="post">
+            <label for="fname">First Name:</label>
+            <input placeholder="Joey Two-Times..." type="text" id="fname" name="fname">
+            <label for="email">Email:</label>
+            <input placeholder="Emailio@addresstevez.com..." type="text" id="email" name="email">
+            <label for="message">Message:</label>
+            <input placeholder ="Leave me a heartfelt message..."type="text" id="message" name="message">
+            <button class="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
